@@ -1,11 +1,3 @@
-# ############################
-# Autor   : Luis Merino Troncoso
-# Fecha   : 23/12/2017
-# Version : 1.0
-#
-# Descripcion : index.js para ejemplo hello-word Kubernetes en nodeJS
-#
-#############################
 
 var express = require("express");
 var app = express();
