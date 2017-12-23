@@ -1,0 +1,22 @@
+#############################
+# Autor   : Luis Merino Troncoso
+# Fecha   : 23/12/2017
+# Version : 1.0
+#
+# Descripcion : Package.json para ejemplo hello-word Kubernetes en nodeJS
+#
+#############################
+{
+  "name":"myapp",
+  "version":"0.0.1",
+  "private": true,
+  "scripts": {
+    "start":"node index.js"
+  },
+  "engines": {
+    "node":"^4.6.1"
+  },
+  "dependencies":{
+    "express":"^4.14.0"
+  }
+}
