@@ -6,7 +6,7 @@ metadata:
     app: helloworld
 spec:
   containers:
-  -name: ks8-hellowworld
-   image: lmtbelmonte/docker-training
-   ports:
-   -containerPort: 3000
+  - image: lmtbelmonte/docker-training
+    name: ks8-helloworld
+    ports:
+    - containerPort: 3000
