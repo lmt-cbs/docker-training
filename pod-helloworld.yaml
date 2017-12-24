@@ -10,3 +10,4 @@ spec:
     name: ks8-helloworld
     ports:
     - containerPort: 3000
+
